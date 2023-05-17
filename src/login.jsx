@@ -26,8 +26,8 @@ const Login = () => {
     <div>
       <h2>Giriş Yap</h2>
       <input
-        type="text"
-        placeholder="Kullanıcı Adı"
+        type="integer"
+        placeholder="Öğrenci No"
         value={username}
         onChange={(e) => setUsername(e.target.value)}
       />
